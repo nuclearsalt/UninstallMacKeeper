@@ -1,5 +1,7 @@
 #!/bin/bash
 
+## This script was not written by me. It's been a while and I don't remember who the original author was!
+
 read -p "WARNING - If you have encrypted any files with MacKeeper, please open MacKeeper and decrypt those files. If you don't do this, you're gonna have a bad time. Type 'ok' and hit ENTER to continue, or type 'quit' to quit this uninstaller: " ok
 
 if [[ $ok = "ok" || $ok = "OK" || $ok = "Ok" ]] ; then
